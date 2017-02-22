@@ -18,7 +18,7 @@ int main()
                    else if (s<=120) x*=1.03;
                         else if (s<=240) x*=1.08;
                              else x*=1.15;
-             printf("%f т.\n",x);
+             printf("%.3f т.р.\n",x);
              }
     else printf("Ошибка, неправильно введены данные\n");    
     return 0;
